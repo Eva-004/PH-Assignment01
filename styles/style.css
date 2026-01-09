@@ -192,3 +192,66 @@ nav button{
     color: #627382;
     margin-bottom: 16px;
 }
+
+#brain{
+    width: 100%;
+}
+#brain .brain-content{
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.brain-content .brain-text{
+   text-align: left;
+}
+.brain-text .sub-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.brain-text h2, .challenge-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text .knowledge-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-text li{
+    display: flex;
+    list-style: none;
+    gap:6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#challenge{
+    width: 100%;
+}
+.challenge-content{
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.challenge-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.challenge-content button{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin: 16px auto;
+}
